@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <main class="main">
+    <div class="layer1"></div>
+    <div class="layer2"></div>
+    <div class="tasks__container">
+
+      <header class="tasks__header">
+        <img class="icon--adalab" src="images/iconoAdalab.jpg" alt="logo Adalab">
+      </header>
+      <div class="list__container">
+        <ul class="tasks">
+        </ul>
+      </div>
+      <div class="btn-plus__container">
+        <button type="button" class="btn btn--plus" id="btn--plus" name="button"><img class="icon-plus" src="images/plus.png" alt="plus icon"></button>
+      </div>
+      <div class="new-task__container" id="new-task__container">
+        <div class="new-task__container--inside">
+          <div class="input__container">
+            <label class="label" for="new-task">Nueva tarea</label>
+            <input type="text" class="input-task" id="new-task" name="input-task" placeholder="Introduce tu tarea">
+          </div>
+          <button type="button" class="btn btn--add-new"name="button">Añadir</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="js/main.min.js" charset="utf-8"></script>
+</body>
+</html>

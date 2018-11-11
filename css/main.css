@@ -1,0 +1,65 @@
+body {
+  background:turquoise ;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  height: 100vh;
+}
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 30px;
+  background: #11CCB8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.tasks__container {
+  position: relative;
+  min-height: 70vh;
+  min-width: 310px;
+  margin: 60px 0;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0 0 1em;
+  box-shadow: 0 0 1em;
+  border-radius: 5px;
+  z-index: 3;
+}
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
+
+
+.tasks__header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 30px 30px 20px 30px;
+  border-bottom: 1px solid #11CCB8;
+}
+
+.icon--adalab {
+  height: 45px;
+  width: 45px;
+}
